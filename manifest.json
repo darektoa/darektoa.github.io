@@ -1,0 +1,26 @@
+{
+    "short_name"        : "Rexball",
+    "name"              : "Rexball",
+    "gcm_sender_id"     : "151030493738",
+    "description"       : "Rexensoft Checking Football",
+    "display"           : "standalone",
+    "theme_color"       : "#000",
+    "background_color"  : "#000",
+    "orientation"       : "portrait",
+    "start_url"         : "/index.html",
+    "icons"             : [
+        {
+            "src"   : "/src/images/icons/72x72.png",
+            "sizes" : "72x72",
+            "type"  : "image/png"
+        }, {
+            "src"   : "/src/images/icons/192x192.png",
+            "sizes" : "192x192",
+            "type"  : "image/png"
+        }, {
+            "src"   : "/src/images/icons/512x512.png",
+            "sizes" : "512x512",
+            "type"  : "image/png"
+        }
+    ]
+}
