@@ -1,9 +1,3 @@
-@font-face{
-    font-family: Magneto;
-    src: url("https://nua8nqpf6qzliamnzx7yba-on.drv.tw/Fonts/magneto-bold/magneto-bold.woff") format("woff");
-    src: url("https://nua8nqpf6qzliamnzx7yba-on.drv.tw/Fonts/magneto-bold/magneto-bold.woff2") format("woff2");
-}
-
 *{
     scrollbar-width: thin;
     scrollbar-color: #dcdcdc transparent;
