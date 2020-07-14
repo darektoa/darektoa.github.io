@@ -22,14 +22,21 @@ workbox.routing.registerRoute(
     workbox.strategies.cacheFirst({
         cacheName: 'images'
     })
-)
+);
 
 workbox.routing.registerRoute(
     new RegExp('/src/html'),
-      workbox.strategies.staleWhileRevalidate({
-          cacheName: 'pages'
-      })
-  );
+    workbox.strategies.staleWhileRevalidate({
+        cacheName: 'pages'
+    })
+);
+
+workbox.routing.registerRoute(
+    new RegExp('(https://|http://)'),
+    workbox.strategies.staleWhileRevalidate({
+        cacheName: 'data-api'
+    })
+);
 
 self.addEventListener('push', event=>{
     let body;
