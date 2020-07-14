@@ -7,7 +7,8 @@ window.addEventListener('load', ()=>{
             else if(result === 'default')
                 console.log('Notification Permission Has Been Closed !');
             else{
-                setTimeout(subscribe, 500);
+                navigator.serviceWorker.ready
+                .then(()=> subscribe());
             }
         })
     else

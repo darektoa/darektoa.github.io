@@ -157,11 +157,8 @@ const championsLeague = async ()=>{
 const about = ()=>{
     const elmntVersion = $('#version')
 
-    caches.keys()
-    .then(version =>{
-        elmntVersion.innerText = `Versi ${version[0].slice(1)}`;
-        removeLoader();
-    })
+    elmntVersion.innerText = 'Version 1.0'
+    removeLoader();
 }
 
 // FUNCTION DIJALANKAN KETIKA PAGE FAVORITE DIMUAT
