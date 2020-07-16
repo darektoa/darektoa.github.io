@@ -1,3 +1,10 @@
+@font-face{
+    font-family: Magneto;
+    src: url("/src/fonts/magneto-bold.woff") format("woff");
+    src: url("/src/fonts/magneto-bold.woff2") format("woff2");
+    src: url("/src/fonts/magneto-bold.ttf") format("truetype");
+}
+
 *{
     scrollbar-width: thin;
     scrollbar-color: #dcdcdc transparent;
