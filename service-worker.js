@@ -57,6 +57,6 @@ self.addEventListener('push', event=>{
     };
 
     event.waitUntil(
-        self.registration.showNotification('Rexball Notification', options)
+        self.registration.showNotification('Rexballs Notification', options)
     );
 });

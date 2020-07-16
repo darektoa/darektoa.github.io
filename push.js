@@ -20,7 +20,7 @@ const pushSubscription = {
     }
 };
 
-const payload = "Periksa sekarang! Ada notifikasi baru dari Rexball!";
+const payload = "Periksa sekarang! Ada notifikasi baru dari Rexballs!";
  
 const options = {
     gcmAPIKey: '151030493738',
