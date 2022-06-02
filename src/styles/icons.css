@@ -14,4 +14,8 @@
     .icon-home{
         background-position: calc(-1em * 0) calc(-1em * 0);
     }
+    
+    .icon-box{
+        background-position: calc(-1em * 1) calc(-1em * 0);
+    }
 }
