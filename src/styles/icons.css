@@ -1,0 +1,13 @@
+@tailwind components;
+
+@layer components{
+    *[class^="icon-"]{
+        font-size: 1.5rem;
+        width: 1em;
+        height: 1em;
+        display: flex;
+        background-image: url("../assets/images/icons.svg");
+        background-size: calc(1em * 5);
+        background-repeat: no-repeat;
+    }
+}
