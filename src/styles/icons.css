@@ -10,4 +10,8 @@
         background-size: calc(1em * 5);
         background-repeat: no-repeat;
     }
+
+    .icon-home{
+        background-position: calc(-1em * 0) calc(-1em * 0);
+    }
 }
