@@ -1,4 +1,5 @@
 import './styles/index.css';
+import './styles/icons.css';
 import App from './scripts/App';
 import { BrowserRouter } from 'react-router-dom';
 import React from 'react';
