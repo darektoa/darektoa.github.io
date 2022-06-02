@@ -18,4 +18,8 @@
     .icon-box{
         background-position: calc(-1em * 1) calc(-1em * 0);
     }
+    
+    .icon-trophy{
+        background-position: calc(-1em * 2) calc(-1em * 0);
+    }
 }
