@@ -34,4 +34,8 @@
     .icon-instagram-blue{
         background-position: calc(-1em * 0) calc(-1em * 1);
     }
+    
+    .icon-linkedin-blue{
+        background-position: calc(-1em * 1) calc(-1em * 1);
+    }
 }
