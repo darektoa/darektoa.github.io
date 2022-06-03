@@ -30,4 +30,8 @@
     .icon-filedown-blue{
         background-position: calc(-1em * 4) calc(-1em * 0);
     }
+    
+    .icon-instagram-blue{
+        background-position: calc(-1em * 0) calc(-1em * 1);
+    }
 }
