@@ -22,4 +22,8 @@
     .icon-trophy{
         background-position: calc(-1em * 2) calc(-1em * 0);
     }
+    
+    .icon-bolt{
+        background-position: calc(-1em * 3) calc(-1em * 0);
+    }
 }
