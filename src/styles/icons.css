@@ -38,4 +38,8 @@
     .icon-linkedin-blue{
         background-position: calc(-1em * 1) calc(-1em * 1);
     }
+    
+    .icon-code{
+        background-position: calc(-1em * 2) calc(-1em * 1);
+    }
 }
