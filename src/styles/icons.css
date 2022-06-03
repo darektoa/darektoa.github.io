@@ -26,4 +26,8 @@
     .icon-bolt{
         background-position: calc(-1em * 3) calc(-1em * 0);
     }
+    
+    .icon-filedown-blue{
+        background-position: calc(-1em * 4) calc(-1em * 0);
+    }
 }
