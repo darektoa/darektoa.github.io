@@ -42,4 +42,8 @@
     .icon-code{
         background-position: calc(-1em * 2) calc(-1em * 1);
     }
+    
+    .icon-link{
+        background-position: calc(-1em * 3) calc(-1em * 1);
+    }
 }
