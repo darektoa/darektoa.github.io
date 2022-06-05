@@ -50,4 +50,8 @@
     .icon-check-blue{
         background-position: calc(-1em * 4) calc(-1em * 1);
     }
+    
+    .icon-github-white{
+        background-position: calc(-1em * 0) calc(-1em * 2);
+    }
 }
