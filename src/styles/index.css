@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer base{
   @font-face{
     font-family: 'Inter';
@@ -34,5 +35,12 @@
   html{
     font-family: 'Inter', system-ui, sans-serif;
     color: #292D32;
+  }
+}
+
+
+@layer utilities{
+  .container{
+    @apply p-5;
   }
 }
