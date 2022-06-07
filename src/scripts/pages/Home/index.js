@@ -1,9 +1,11 @@
+import About from './Partials/About.js';
+
 const Home = () => {
-    return (
-        <section>
-            
-        </section>
-    );
+	return (
+		<>
+			<About />
+		</>  
+	);
 }
 
 export default Home;
