@@ -39,7 +39,7 @@
 }
 
 
-@layer utilities{
+@layer components{
   .container{
     @apply p-5;
   }
