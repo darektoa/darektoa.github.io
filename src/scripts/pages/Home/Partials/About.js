@@ -8,7 +8,7 @@ const About = () => {
 			before:h-full before:absolute before:-z-10
 			after:contents-[' '] after:absolute after:-z-10 after:top-48 after:right-14
 			after:w-[50%] after:max-w-[48rem] after:pt-[50%] after:bg-gradient-radial-circle 
-			after:from-[rgba(143,39,204,0.3)] after:to-[rgba(255,255,255,0)]">
+			after:from-[rgba(117,0,184,0.4)] after:to-[rgba(117,0,184,0)]">
 			<div className="container">
 				<h1 className="text-3xl font-extrabold text-[#0077B6]">IT'S ME, ABDUL</h1>
 				<p>I'm an enthusiastic programmer 🙌</p>
