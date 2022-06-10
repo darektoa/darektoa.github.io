@@ -1,9 +1,10 @@
-import About from './Partials/About.js';
+import {About, Project} from './Partials';
 
 const Home = () => {
 	return (
 		<>
 			<About />
+			<Project />
 		</>  
 	);
 }
