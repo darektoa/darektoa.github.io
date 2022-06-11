@@ -75,7 +75,7 @@ const response =  {
             "id": 8,
             "thumbnail": thumbnail8,
             "title": "Generasi Cuan Profile Website",
-            "categories": ["Javascript", "HTML", "CSS"],
+            "categories": ["PWA", "Javascript", "HTML", "CSS"],
             "source": "https://github.com/darektoa/generasi-cuan",
             "preview": "https://gen-cuan.web.app/"
         },
