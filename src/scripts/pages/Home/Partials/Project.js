@@ -32,7 +32,7 @@ const ProjectCard = (props) => {
 
     return (
         <div className="mb-6 rounded-2xl overflow-hidden shadow-sunny shadow-[rgba(118,118,118,0.25)]">
-            <img src={data.thumbnail || 'https://source.unsplash.com/random/300x300?tech'} alt=" " className="w-full h-48 object-cover border border-solid border-b-[#00B4D8]" />
+            <img src={data.thumbnail || 'https://source.unsplash.com/random/300x300?tech'} alt="Thumbnail" className="w-full h-48 object-cover border border-solid border-b-[#00B4D8] bg-slate-300" />
             <div className="flex justify-between">
                 <div className="w-full h-full min-h-[6rem] p-4 pt-3 flex flex-col">
                     <ul className="mb-1 flex text-sm text-[#00B4D8]">

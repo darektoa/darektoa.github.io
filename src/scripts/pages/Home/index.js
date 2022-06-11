@@ -1,10 +1,11 @@
-import {About, Project} from './Partials';
+import {About, Achievement, Project} from './Partials';
 
 const Home = () => {
 	return (
 		<>
 			<About />
 			<Project />
+			<Achievement />
 		</>  
 	);
 }
