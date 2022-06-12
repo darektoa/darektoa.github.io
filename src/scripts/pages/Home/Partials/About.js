@@ -1,7 +1,7 @@
 const About = () => {
 	return (
 		<section className="
-			w-full min-h-[40rem] pb-20 flex justify-center relative
+			w-full min-h-[36rem] pb-16 flex justify-center relative
 			bg-gradient-to-b from-[rgba(202,240,248,.05)]
 			via-[rgba(202,240,248,.5)] to-[rgba(0,180,216,0)]
 			before:bg-grid before:w-full before:contents-[' ']

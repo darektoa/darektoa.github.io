@@ -1,4 +1,4 @@
-import {About, Achievement, Project} from './Partials';
+import {About, Achievement, Experience, Project} from './Partials';
 
 const Home = () => {
 	return (
@@ -6,6 +6,7 @@ const Home = () => {
 			<About />
 			<Project />
 			<Achievement />
+			<Experience />
 		</>  
 	);
 }
