@@ -9,12 +9,12 @@ const Project = () => {
     }, []);
 
     return (
-        <section className="pb-20 flex justify-center overflow-hidden">
+        <section id="projects" className="pb-20 flex justify-center overflow-hidden">
             <div className="container pt-0 relative">
                 <i className="w-80 h-80 absolute top-16 -right-32 bg-gradient-radial-circle from-[rgba(202,240,248,0.5)] to-[rgba(202,240,248,0)] -z-10"></i>
                 <i className="w-80 h-80 absolute top-[34rem] -left-32 bg-gradient-radial-circle from-[rgba(117,0,184,0.15)] to-[rgba(117,0,184,0)] -z-10"></i>
                 <div className="mb-6 flex items-center">
-                    <h2 id="projects" className="text-3xl font-bold"># PROJECTS</h2>
+                    <h2 className="text-3xl font-bold"># PROJECTS</h2>
                     <div className="ml-4 h-1 flex-grow rounded-xl bg-black"></div>
                 </div>
 

@@ -9,7 +9,7 @@ const Achievement = () => {
     },[]);
 
     return (
-        <section id="achievement" className="min-h-[48rem] pb-20 flex justify-center relative bg-gradient-to-b from-[rgba(202,240,248,0.5)] via-[rgba(104,48,195,0.25)] to-[rgba(104,48,195,0)]">
+        <section id="achievements" className="min-h-[48rem] pb-20 flex justify-center relative bg-gradient-to-b from-[rgba(202,240,248,0.5)] via-[rgba(104,48,195,0.25)] to-[rgba(104,48,195,0)]">
             <div className="w-full h-40 absolute -top-[10rem] bg-wave bg-repeat-x bg-bottom -z-10"></div>
             <div className="w-full h-[48rem] absolute -top-64 bg-grid -z-10"></div>
             <div className="container">
