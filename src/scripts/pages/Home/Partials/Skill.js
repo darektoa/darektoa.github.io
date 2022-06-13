@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Footer from "./Footer";
 import SkillData from "../../../data/SkillData";
 
 const Skill = () => {
@@ -9,7 +10,8 @@ const Skill = () => {
     }, []);
 
     return (
-        <section id="skills" className="min-h-[48rem] pb-20 flex justify-center" style={{ backgroundImage: 'linear-gradient(180deg, rgba(202, 240, 248, 0) 0%, rgba(202, 240, 248, 0.5) 13.54%, rgba(116, 0, 184, 0.1) 47.92%, rgba(202, 212, 248, 0.5) 100%)' }}>
+        <section id="skills" className="min-h-[48rem] pb-6 relative flex justify-center" style={{ backgroundImage: 'linear-gradient(180deg, rgba(202, 240, 248, 0) 0%, rgba(202, 240, 248, 0.5) 13.54%, rgba(116, 0, 184, 0.1) 47.92%, rgba(202, 240, 248, 0.5) 100%)' }}>
+            <div className="w-full h-[48rem] absolute bottom-0 bg-grid -z-10"></div>
             <div className="container pt-0 flex flex-wrap justify-between">
                 <div className="w-full my-6 flex items-center">
                     <h2 className="text-3xl font-bold text-[#0077B6]"># SKILLS</h2>
@@ -20,6 +22,7 @@ const Skill = () => {
                     <SkillCard key={index} data={item} />
                 ))}
                 
+                <Footer />
             </div>
         </section>
     );
