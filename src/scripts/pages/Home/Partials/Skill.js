@@ -36,8 +36,8 @@ const SkillCard = (props) => {
         <div className="w-[47.5%] mb-6 pt-[50%] relative flex-shrink-0 items-center rounded-2xl border border-indigo-200 bg-[rgba(255,255,255,.75)]">
             <div className="w-full h-full p-4 pb-2 absolute top-0 flex flex-col justify-end items-center">
                 <div className="w-[45%] h-[45%] mb-4 grow bg-contain bg-no-repeat bg-center" style={{ backgroundImage: `url('${data.icon}')` }}></div>
-                <h3 className="text-base font-bold leading-none">{data.name}</h3>
-                <p className="text-xs text-center"><span className="text-[#0077B6] font-bold">{data.experience}</span><br/> of Experience </p>
+                <h3 className="text-base font-bold leading-none xs:text-lg">{data.name}</h3>
+                <p className="text-xs text-center xs:text-sm"><span className="text-[#0077B6] font-bold">{data.experience}</span><br/> of Experience </p>
             </div>
         </div>
     );

@@ -31,11 +31,11 @@ const ExperienceCard = (props) => {
     
     return (
         <div className="relative mb-6 pl-8">
-            <i className="icon-check-blue text-lg absolute top-1 left-0"></i>
-            <h3 className="text-lg font-bold leading-tight">{data.title}</h3>
-            <small className="block text-sm leading-tight">{data.location}</small>
-            <small className="block mb-2 text-sm leading-tight text-[#0077B6]">({data.date})</small>
-            <p className="text-base">{data.desc}</p>
+            <i className="icon-check-blue text-lg absolute top-1 left-0 xs:text-xl"></i>
+            <h3 className="text-lg font-bold leading-tight xs:text-xl">{data.title}</h3>
+            <small className="block text-sm leading-tight xs:text-base">{data.location}</small>
+            <small className="block mb-2 text-sm leading-tight text-[#0077B6] xs:text-base">({data.date})</small>
+            <p className="text-base leading-snug xs:text-lg">{data.desc}</p>
         </div>
     );
 }

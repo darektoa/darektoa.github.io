@@ -35,12 +35,12 @@ const ProjectCard = (props) => {
             <img src={data.thumbnail || 'https://source.unsplash.com/random/300x300?tech'} alt="Thumbnail" className="w-full h-48 object-cover border border-solid border-b-[#00B4D8] bg-slate-300" />
             <div className="flex justify-between">
                 <div className="w-full h-full min-h-[6rem] p-4 pt-3 flex flex-col">
-                    <ul className="mb-1 flex text-sm text-[#00B4D8]">
+                    <ul className="mb-1 flex text-sm text-[#00B4D8] xs:text-base">
                         {data.categories.map((item, index) => (
                             <li key={-index} className="mr-1">#{item}</li>
                         ))}
                     </ul>
-                    <h3 className="text-lg leading-snug font-bold">{data.title}</h3>
+                    <h3 className="text-lg leading-snug font-bold xs:text-xl">{data.title}</h3>
                 </div>
                 <div className="pt-4 pr-4 flex flex-col">
                     {data.source && <a href={data.source}><i className="icon-code text-xl mb-2" /></a>}
