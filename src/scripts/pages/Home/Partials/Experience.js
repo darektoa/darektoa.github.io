@@ -11,7 +11,7 @@ const Experience = () => {
     return (
         <section id="experiences" className="pb-20 flex justify-center">
             <div className="container pt-0">
-                <div className="my-6 flex items-center">
+                <div className="w-full my-6 flex items-center md:my-10">
                     <h2 className="text-3xl font-bold text-[#0077B6] sm:text-4xl"># EXPERIENCES</h2>
                     <div className="ml-4 h-1 flex-grow rounded-xl bg-[#0077B6]"></div>
                 </div>
