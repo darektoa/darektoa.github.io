@@ -36,7 +36,7 @@ const About = () => {
 					</a>
 					<a href="https://github.com/darektoa" className="w-full h-full p-3 bg-[rgba(255,255,255,60)] rounded-xl flex justify-center items-center col-span-7 self-end shadow-sunny shadow-[rgba(116,0,184,.25)] xs:rounded-2xl md:rounded-3xl">
 						<i className="icon-filedown-blue text-2xl xs:text-3xl sm:text-4xl md:text-5xl"></i>
-						<p className="ml-3 text-sm text-[#0077B6] font-bold xs:text-lg sm:text-xl md:text-3xl">Donwload CV</p>
+						<p className="ml-3 text-sm text-[#0077B6] font-bold xs:text-lg sm:text-xl md:text-3xl">Download CV</p>
 					</a>
 				</div>
 
