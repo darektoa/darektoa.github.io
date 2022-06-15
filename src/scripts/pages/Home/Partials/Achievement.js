@@ -33,10 +33,10 @@ const AchievementCard = (props) => {
     const { data } = props;
 
     return (
-        <div className="w-full h-10 mb-6 p-1 pt-[30%] pb-[30%] relative flex justify-center items-center rounded-2xl bg-gradient-to-b from-[#00B4D8] to-[#6930C3] overflow-hidden md:w-[48.5%] md:pt-[20%] md:pb-[20%]">
+        <div className="group w-full h-10 mb-6 p-1 pt-[30%] pb-[30%] relative flex justify-center items-center rounded-2xl bg-gradient-to-b from-[#00B4D8] to-[#6930C3] overflow-hidden md:w-[48.5%] md:pt-[20%] md:pb-[20%]">
             <div className="w-[calc(100%-.5rem)] h-[calc(100%-.5rem)] absolute bg-sky-50 rounded-xl bg-grid"></div>
             <img src={data.thumbnail || 'https://source.unsplash.com/random/300x300?paper'} alt="Thumbnail" className="w-[calc(100%-2rem)] h-[calc(100%-2rem)] absolute object-contain" />
-            <h3 className="w-full min-h-[30%] px-6 py-3 flex items-center absolute bottom-0 text-base leading-snug text-white font-bold bg-gradient-to-b from-[rgba(0,180,216,0.75)] to-[rgba(104,48,195,0.75)] xs:text-lg sm:text-2xl md:text-base">{data.title}</h3>
+            <h3 className="w-full min-h-[30%] px-6 py-3 flex items-center absolute bottom-0 text-base leading-snug text-white font-bold bg-gradient-to-b from-[rgba(0,180,216,0.75)] to-[rgba(104,48,195,0.75)] group-hover:min-h-full transition-all ease-out duration-300 group-hover:skew-x-12 xs:text-lg sm:text-2xl md:text-base lg:text-xl">{data.title}</h3>
         </div>
     );
 }

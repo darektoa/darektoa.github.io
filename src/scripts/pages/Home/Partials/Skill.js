@@ -33,7 +33,7 @@ const SkillCard = (props) => {
     const { data } = props;
 
     return (
-        <div className="w-[47.5%] mb-6 pt-[50%] relative flex-shrink-0 items-center rounded-2xl border border-indigo-200 bg-[rgba(255,255,255,.75)] sm:w-[48%] md:w-[31%] md:pt-[31%]">
+        <div className="w-[47.5%] mb-6 pt-[50%] relative flex-shrink-0 items-center rounded-2xl border border-indigo-200 bg-[rgba(255,255,255,.75)] sm:w-[48%] md:w-[31%] md:pt-[31%] lg:w-[23%] lg:pt-[23%]">
             <div className="w-full h-full p-4 pb-2 absolute top-0 flex flex-col justify-end items-center sm:pb-4">
                 <div className="w-[45%] h-[45%] mb-4 grow bg-contain bg-no-repeat bg-center" style={{ backgroundImage: `url('${data.icon}')` }}></div>
                 <h3 className="text-base font-bold leading-none xs:text-lg sm:text-xl">{data.name}</h3>
