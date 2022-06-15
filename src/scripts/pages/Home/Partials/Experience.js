@@ -10,9 +10,9 @@ const Experience = () => {
 
     return (
         <section id="experiences" className="pb-20 flex justify-center">
-            <div className="container pt-0">
-                <div className="w-full my-6 flex items-center md:my-10">
-                    <h2 className="text-3xl font-bold text-[#0077B6] sm:text-4xl"># EXPERIENCES</h2>
+            <div className="container pt-0 flex flex-wrap">
+                <div className="w-full my-6 flex flex-shrink-0 items-center md:my-10">
+                    <h2 className="text-3xl font-bold text-[#0077B6] sm:text-4xl"><a href="#experiences" className="hover:underline"># EXPERIENCES</a></h2>
                     <div className="ml-4 h-1 flex-grow rounded-xl bg-[#0077B6]"></div>
                 </div>
 
@@ -30,7 +30,7 @@ const ExperienceCard = (props) => {
     const { data } = props;
     
     return (
-        <div className="relative mb-6 pl-8 sm:pl-10">
+        <div className="relative mb-6 pl-8 sm:pl-10 xl:w-[48%]">
             <i className="icon-check-blue text-lg absolute top-1 left-0 xs:text-xl sm:text-2xl"></i>
             <h3 className="text-lg font-bold leading-tight xs:leading-tight xs:text-xl sm:leading-tight sm:text-2xl">{data.title}</h3>
             <small className="block text-sm leading-tight xs:leading-tight xs:text-base sm:leading-tight sm:text-lg">{data.location}</small>
