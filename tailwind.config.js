@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        flutter: 'flutter 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;'
+        flutter: 'flutter 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;'
       },
       backgroundImage: {
         grid: ["url('../assets/images/grids.png')"],
