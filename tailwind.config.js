@@ -18,7 +18,7 @@ module.exports = {
       keyframes: {
         flutter: {
           '0%, 100%': {opacity: 1, transform: 'scale(1)'},
-          '50%': {opacity: .7, transform: 'scale(1.5)'}
+          '50%': {opacity: .7, transform: 'scale(1.3)'}
         }
       }
     },
