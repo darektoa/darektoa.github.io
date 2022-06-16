@@ -14,9 +14,11 @@ const Achievement = () => {
             <div className="w-full h-[48rem] absolute -top-64 bg-grid -z-10"></div>
             <div className="w-full h-[48rem] absolute -bottom-32 bg-grid -z-10"></div>
             <div className="container pt-0 md:flex md:flex-wrap md:justify-between">
-                <div className="w-full my-6 flex flex-shrink-0 items-center md:my-10">
-                    <h2 id="projects" className="text-3xl font-bold text-[#0077B6] sm:text-4xl"><a href="#achievements" className="hover:underline"># ACHIEVEMENTS</a></h2>
-                    <div className="ml-4 h-1 flex-grow rounded-xl bg-[#0077B6] shadow shadow-[rgba(0,118,182,0.5)]"></div>
+                <div className="w-full my-6 flex-shrink-0">
+                    <div className="w-full flex items-center md:my-10 xl:max-w-[50%]">
+                        <h2 id="projects" className="text-3xl font-bold text-[#0077B6] sm:text-4xl 2xl:text-5xl"><a href="#achievements" className="hover:underline"># ACHIEVEMENTS</a></h2>
+                        <div className="ml-4 h-1 flex-grow rounded-xl bg-[#0077B6] shadow shadow-[rgba(0,118,182,0.5)]"></div>
+                    </div>
                 </div>
 
                 {data.map((item, index) => (

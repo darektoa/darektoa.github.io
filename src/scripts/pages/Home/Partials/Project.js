@@ -13,9 +13,11 @@ const Project = () => {
             <div className="container pt-0 relative md:flex md:flex-wrap md:justify-between">
                 <i className="w-80 h-80 absolute top-16 -right-32 bg-gradient-radial-circle from-[rgba(202,240,248,0.5)] to-[rgba(202,240,248,0)] -z-10"></i>
                 <i className="w-80 h-80 absolute top-[34rem] -left-32 bg-gradient-radial-circle from-[rgba(117,0,184,0.15)] to-[rgba(117,0,184,0)] -z-10"></i>
-                <div className="w-full my-6 flex flex-shrink-0 items-center md:my-10">
-                    <h2 className="text-3xl font-bold sm:text-4xl"><a href="#projects" className="hover:underline"># PROJECTS</a></h2>
-                    <div className="ml-4 h-1 flex-grow rounded-xl bg-[#292D32]"></div>
+                <div className="w-full my-6 flex-shrink-0">
+                    <div className="w-full flex items-center md:my-10 xl:max-w-[50%]">
+                        <h2 className="text-3xl font-bold sm:text-4xl 2xl:text-5xl"><a href="#projects" className="hover:underline"># PROJECTS</a></h2>
+                        <div className="ml-4 h-1 flex-grow rounded-xl bg-[#292D32] shadow shadow-[rgba(41,45,50,0.5)]"></div>
+                    </div>
                 </div>
 
                 {data.map((item, index) => (

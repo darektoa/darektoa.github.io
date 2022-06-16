@@ -11,9 +11,11 @@ const Experience = () => {
     return (
         <section id="experiences" className="pb-20 flex justify-center">
             <div className="container pt-0 flex flex-wrap">
-                <div className="w-full my-6 flex flex-shrink-0 items-center md:my-10">
-                    <h2 className="text-3xl font-bold text-[#0077B6] sm:text-4xl"><a href="#experiences" className="hover:underline"># EXPERIENCES</a></h2>
-                    <div className="ml-4 h-1 flex-grow rounded-xl bg-[#0077B6]"></div>
+                <div className="w-full my-6 flex-shrink-0">
+                    <div className="w-full flex items-center md:my-10 xl:max-w-[50%]">
+                        <h2 className="text-3xl font-bold text-[#0077B6] sm:text-4xl 2xl:text-5xl"><a href="#experiences" className="hover:underline"># EXPERIENCES</a></h2>
+                        <div className="ml-4 h-1 flex-grow rounded-xl bg-[#0077B6] shadow shadow-[rgba(0,118,182,0.5)]"></div>
+                    </div>
                 </div>
 
                 {data.map((item, index) => (

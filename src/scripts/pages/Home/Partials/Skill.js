@@ -13,9 +13,11 @@ const Skill = () => {
         <section id="skills" className="min-h-[48rem] pb-6 relative flex justify-center" style={{ backgroundImage: 'linear-gradient(180deg, rgba(202, 240, 248, 0) 0%, rgba(202, 240, 248, 0.5) 13.54%, rgba(116, 0, 184, 0.1) 47.92%, rgba(202, 240, 248, 0.5) 100%)' }}>
             <div className="w-full h-[48rem] absolute bottom-0 bg-grid -z-10"></div>
             <div className="container pt-0 flex flex-wrap justify-between">
-                <div className="w-full my-6 flex flex-shrink-0 items-center md:my-10">
-                    <h2 className="text-3xl font-bold text-[#0077B6] sm:text-4xl"><a href="#skills" className="hover:underline"># SKILLS</a></h2>
-                    <div className="ml-4 h-1 flex-grow rounded-xl bg-[#0077B6]"></div>
+                <div className="w-full my-6 flex-shrink-0">
+                    <div className="w-full flex items-center md:my-10 xl:max-w-[50%]">
+                        <h2 className="text-3xl font-bold text-[#0077B6] sm:text-4xl 2xl:text-5xl"><a href="#skills" className="hover:underline"># SKILLS</a></h2>
+                        <div className="ml-4 h-1 flex-grow rounded-xl bg-[#0077B6] shadow shadow-[rgba(0,118,182,0.5)]"></div>
+                    </div>
                 </div>
 
                 {data.map((item, index) => (
