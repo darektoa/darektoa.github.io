@@ -43,4 +43,11 @@
   .container{
     @apply p-5;
   }
+
+
+  @media screen(lg) {
+    .container{
+      @apply p-10
+    }
+  }
 }
