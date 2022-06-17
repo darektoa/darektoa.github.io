@@ -1,3 +1,5 @@
+import CV from '../../../../assets/files/CV-Abdul.pdf';
+
 const About = () => {
 	return (
 		<section className="
@@ -34,7 +36,7 @@ const About = () => {
 							<p className="p-2 text-sm text-[#0077B6] xs:text-xl sm:text-2xl md:text-3xl lg:text-lg">LinkedIn</p>
 						</div>
 					</a>
-					<a href="https://github.com/darektoa" target="__blank" rel="noopener noreferrer" className="w-full h-full p-3 bg-[rgba(255,255,255,60)] rounded-xl flex justify-center items-center col-span-7 self-end shadow-sunny shadow-[rgba(116,0,184,.25)] xs:rounded-2xl md:rounded-3xl lg:w-auto lg:h-auto lg:px-8 lg:py-4 lg:absolute lg:top-96 lg:left-10 lg:hover:px-32 2xl:top-[26rem] transition-[padding]">
+					<a href={CV} download="CV - Abdul" className="w-full h-full p-3 bg-[rgba(255,255,255,60)] rounded-xl flex justify-center items-center col-span-7 self-end shadow-sunny shadow-[rgba(116,0,184,.25)] xs:rounded-2xl md:rounded-3xl lg:w-auto lg:h-auto lg:px-8 lg:py-4 lg:absolute lg:top-96 lg:left-10 lg:hover:px-32 2xl:top-[26rem] transition-[padding]">
 						<i className="icon-filedown-blue text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-4xl 2xl:text-5xl"></i>
 						<p className="ml-3 text-sm text-[#0077B6] font-bold xs:text-lg sm:text-xl md:text-3xl lg:text-xl lg:ml-4 2xl:text-2xl">Download CV</p>
 					</a>
