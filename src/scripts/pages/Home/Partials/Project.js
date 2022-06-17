@@ -35,21 +35,21 @@ const ProjectCard = (props) => {
     return (
         <div className="group mb-6 min-h-max md:w-[49%] md:flex-shrink-0 xl:w-[32%]">
             <div className="w-full h-full rounded-2xl overflow-hidden shadow-sunny shadow-[rgba(118,118,118,0.25)] group-hover:scale-90 transition-transform duration-200">
-                <div className='w-full h-48 sm:h-64 md:h-48 border border-solid border-b-[#00B4D8] bg-slate-300 overflow-hidden'>
+                <div className='w-full h-48 sm:h-64 md:h-48 border border-solid border-b-[#0077B6] bg-slate-300 overflow-hidden'>
                     <img src={data.thumbnail || 'https://source.unsplash.com/random/300x300?tech'} alt="Thumbnail" className="w-full h-full mx-auto object-cover group-hover:scale-125 transition-all ease-in group-hover:duration-300" />
                 </div>
                 <div className="flex justify-between">
-                    <div className="w-full h-full min-h-[6rem] p-4 pt-3 flex flex-col">
-                        <ul className="mb-1 flex text-sm text-[#00B4D8] xs:text-base sm:text-lg md:text-sm">
+                    <div className="w-full h-full min-h-[6rem] p-4 pt-3 pr-2 flex flex-col">
+                        <ul className="mb-1 flex text-sm text-[#0077B6] xs:text-base sm:text-lg md:text-sm">
                             {data.categories.map((item, index) => (
                                 <li key={-index} className="mr-1 xs:mr-2">#{item}</li>
                             ))}
                         </ul>
                         <h3 className="text-lg leading-snug font-bold xs:text-xl sm:text-2xl md:text-lg">{data.title}</h3>
                     </div>
-                    <div className="pt-4 pr-4 flex flex-col">
-                        {data.source && <a href={data.source} target="__blank" rel="noopener noreferrer"><i className="icon-code text-xl mb-2 sm:mb-3 sm:text-2xl md:text-xl" /></a>}
-                        {data.preview && <a href={data.preview} target="__blank" rel="noopener noreferrer"><i className="icon-link text-xl sm:text-2xl md:text-xl" /></a>}
+                    <div className="pt-2 pr-2 flex flex-col">
+                        {data.source && <a href={data.source} target="__blank" rel="noopener noreferrer" aria-label="code" className="p-2"><i className="icon-code text-xl sm:text-2xl md:text-xl" /></a>}
+                        {data.preview && <a href={data.preview} target="__blank" rel="noopener noreferrer" aria-label="demo" className="p-2"><i className="icon-link text-xl sm:text-2xl md:text-xl" /></a>}
                     </div>
                 </div>
             </div>
