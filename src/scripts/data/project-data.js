@@ -1,14 +1,14 @@
-import thumbnail1 from '../../assets/images/projects/project-1.jpg';
-import thumbnail2 from '../../assets/images/projects/project-2.jpg';
-import thumbnail3 from '../../assets/images/projects/project-3.jpg';
-import thumbnail4 from '../../assets/images/projects/project-4.jpg';
-import thumbnail5 from '../../assets/images/projects/project-5.jpg';
-import thumbnail6 from '../../assets/images/projects/project-6.jpg';
-import thumbnail7 from '../../assets/images/projects/project-7.jpg';
-import thumbnail8 from '../../assets/images/projects/project-8.jpg';
-import thumbnail9 from '../../assets/images/projects/project-9.jpg';
-import thumbnail10 from '../../assets/images/projects/project-10.jpg';
-import thumbnail11 from '../../assets/images/projects/project-11.jpg';
+import thumbnail1 from '../../assets/images/projects/project-1.webp';
+import thumbnail2 from '../../assets/images/projects/project-2.webp';
+import thumbnail3 from '../../assets/images/projects/project-3.webp';
+import thumbnail4 from '../../assets/images/projects/project-4.webp';
+import thumbnail5 from '../../assets/images/projects/project-5.webp';
+import thumbnail6 from '../../assets/images/projects/project-6.webp';
+import thumbnail7 from '../../assets/images/projects/project-7.webp';
+import thumbnail8 from '../../assets/images/projects/project-8.webp';
+import thumbnail9 from '../../assets/images/projects/project-9.webp';
+import thumbnail10 from '../../assets/images/projects/project-10.webp';
+import thumbnail11 from '../../assets/images/projects/project-11.webp';
 
 
 const response =  {
