@@ -8,7 +8,7 @@ module.exports = {
         flutter: 'flutter 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;'
       },
       backgroundImage: {
-        grid: ["url('../assets/images/grids.png')"],
+        grid: ["url('../assets/images/grids.webp')"],
         'gradient-radial-circle': 'radial-gradient(50% 50% at 50% 50%, var(--tw-gradient-stops))',
         wave: "url('../assets/images/wave.svg')"
       },
