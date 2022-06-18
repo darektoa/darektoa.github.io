@@ -1,9 +1,9 @@
-import thumbnail1 from '../../assets/images/achievements/1.jpg';
-import thumbnail2 from '../../assets/images/achievements/2.jpg';
-import thumbnail3 from '../../assets/images/achievements/3.jpg';
-import thumbnail4 from '../../assets/images/achievements/4.jpg';
-import thumbnail5 from '../../assets/images/achievements/5.jpg';
-import thumbnail6 from '../../assets/images/achievements/6.jpg';
+import thumbnail1 from '../../assets/images/achievements/1.webp';
+import thumbnail2 from '../../assets/images/achievements/2.webp';
+import thumbnail3 from '../../assets/images/achievements/3.webp';
+import thumbnail4 from '../../assets/images/achievements/4.webp';
+import thumbnail5 from '../../assets/images/achievements/5.webp';
+import thumbnail6 from '../../assets/images/achievements/6.webp';
 
 
 const response =  {
